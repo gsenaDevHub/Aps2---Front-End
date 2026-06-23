@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="../index.html">Voltar para o Menu</a><br>
+    <h1>Agendamento para banho e tosa</h1>
+    <h2>Faça o seu agendamento com pelo menos 48 horas de antencedência</h2>
+    <form action="index.html" method="get">
+        <fieldset>
+            <legend>Identificação do dono do animal</legend>
+            <div><label for="">Nome:</label><input type="text" placeholder="Digite o nome o seu nome" size="50"></div><br>
+            <div><label for="">Endereço:</label><input type="text" placeholder="Digite seu endereço" size="50"></div><br>
+            <div><label for="">CEP:</label><input type="" placeholder="Digite seu CEP" size="50"></div><br>
+            <div><label for="">Email:</label><input type="email" placeholder="Joao.silva@test.com" size="50"></div><br>
+            <div><label for="">Tel/Cel:</label><input type="tel" placeholder="99999-9999" size="50"></div><br>
+            <div><label for="">Nome Dog:</label><input type="text" placeholder="Nome do animal" size="50"></div><br>
+        </fieldset>
+        <fieldset>
+        <legend>Animal</legend>
+        <p>
+            <label for="nome">Nome</label>
+            <input type="text" placeholder="Digite o nome do animal">
+            <br><br>
+            <input type="radio" name="porte" id="pn" checked>
+            <label for="pn">Pequena</label>
+            <input type="radio" name="porte" id="me">
+            <label for="me">Media</label>
+            <input type="radio" name="porte" id="gd">
+            <label for="gd">Grnde</label>
+        </p>
+        <p>
+            <label for="">Tipo de Tosa:</label>
+            <select name="opcao" id="opcao">
+                <option value="1">Nenhuma</option>
+                <option value="2">Opção 1</option>
+                <option value="3">Opção 2</option>
+                <option value="4">Opção 3</option>
+            </select>
+        </p>
+            <label for="obs">Observações:</label>
+            <textarea name="" id="" cols="70" rows="2" placeholder="informações Extras..."></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Horário - Obs: Não atendemos aos domingos e às segundas-feiras</legend>
+            <p>
+                Indique os dias da semana de sua preferência: <br><br>
+                <input type="checkbox" name="" id="">
+                <label for="">Terça</label>
+                <input type="checkbox" name="" id="">
+                <label for="">Quarta</label>
+                <input type="checkbox" name="" id="">
+                <label for="">Quinta</label>
+                <input type="checkbox" name="" id="">
+                <label for="">Sexta</label>
+                <input type="checkbox" name="" id="">
+                <label for="">Sábado</label>
+                <br><br>
+                Primeira opção de hórario: <input type="date" name="phorario" id="phorario"><br>
+                Segunda opção de hórario: <input type="date" name="shorario" id="shorario"><br>
+            </p>
+
+        </fieldset>
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>
