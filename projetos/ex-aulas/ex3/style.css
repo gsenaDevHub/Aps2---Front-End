@@ -1,0 +1,29 @@
+
+h2{
+	padding: 5px;
+	background: #c9e0e5 ;
+
+	width: 60%;
+	
+}
+h3{
+	color: #004552;
+}
+hr{
+	boder: 0 ;
+	height: 5px;
+	background-color: #7faeb7;
+}
+a{
+	color: #c9e0e5;
+	text-decoration: none;
+}
+a:hover{
+	color:#ffa700;
+}
+img{
+	margin:8px;
+}
+img:hover{
+	border: #ffa700 7px solid;
+}

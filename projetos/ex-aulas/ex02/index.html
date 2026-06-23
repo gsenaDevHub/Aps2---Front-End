@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+
+    <style>
+        body{
+            width: 1000px;
+            margin: auto;
+        }
+
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        th, td{
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        thead, tfoot{
+            background-color: #01316a;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <p><a href="../../../index.html">Voltar ao Menu Principal</a></p>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th rowspan="2">Modelo</th>
+                <th rowspan="2">Altura</th>
+                <th rowspan="2">Largura</th>
+                <th colspan="2">Acessórios</th>
+            </tr>
+
+            <tr>
+                <th>USB</th>
+                <th>WI-FI</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>XK-7</td>
+                <td>20</td>
+                <td>30</td>
+                <td><img src="./sim.jpg" alt="Sim"></td>
+                <td><img src="./nao.jpg" alt="Não"></td>
+            </tr>
+
+            <tr>
+                <td>WZ8</td>
+                <td>10</td>
+                <td>15</td>
+                <td><img src="./nao.jpg" alt="Não"></td>
+                <td><img src="./nao.jpg" alt="não"></td>
+            </tr>
+
+            <tr>
+                <td>X15</td>
+                <td>30</td>
+                <td>25</td>
+                <td><img src="./sim.jpg" alt="Sim"></td>
+                <td><img src="./sim.jpg" alt="Sim"></td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="5">
+                    Dados técnicos do equipamento
+                </td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+</body>
+</html>

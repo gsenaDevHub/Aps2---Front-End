@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    width: 1000px;
+    text-align: center;
+}
+
+header figure,
+header h1,
+header,
+footer h3,
+footer {
+    width: 100%;
+}
+
+footer h3 {
+    background-color: black;
+    margin-top: 20px;
+    padding: 20px;
+    color: white;
+    border-top: 10px solid #C4D7A2;
+}
+
+header h1 {
+    background-color: black;
+    color: white;
+    border-bottom: 10px solid #C4D7A2;
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside {
+    flex: 1;
+}
+
+.links li {
+    list-style-type: none;
+    width: 100%;
+    height: 50px;
+    padding-top: 15px;
+    border-width: 2px 0 0 0;
+    border-color: black;
+    border-style: solid;
+    text-align: left;
+    align-items: center;
+
+}
+
+.links li:nth-child(5) {
+    border-bottom: 2px solid black;
+}
+
+.links li a {
+    text-decoration: none;
+    margin-left: 8px;
+    text-decoration-style: none;
+    color: black;
+    font-weight: 600;
+}
+
+section {
+    flex: 3;
+    text-align: start;
+}
+
+section article {
+    margin: 0 40px;
+}
+
+section article .nota{
+    margin-right: 250px;
+}
+
+section article figure {
+    margin-top: 20px;
+}
+
+section article figure img {
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+section article figure p {
+    text-align: justify;
+}
+
+section article .autor {
+    text-align: right;
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+section article h1 {
+    width: 100%;
+    margin-bottom: 5px;
+    border-bottom: 2px solid black;
+}
+
+.card{
+    margin: 0 25px 25px 25px ;
+    text-align: justify;
+}
+.card h3{
+    border-bottom: #D0DBA7 1px solid;
+}
+.card p:nth-of-type(1){
+    text-align: right;
+    color: #D0DBA7;
+}
+.card p:nth-of-type(2){
+    margin: 10px 0;
+}
+.card p:nth-of-type(3){
+    text-align: right;
+    color: #A6231B  ;
+}
